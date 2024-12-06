@@ -1,38 +1,194 @@
-.App {
-  text-align: center;
+nav{
+  background-color: #3cb371;
+
+}
+nav .navbar-nav .nav-item .nav-link:hover{
+  background-color:#2E8b57;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav .navbar-nav .nav-item .dropdown-toggle p{
+  background-color: aliceblue; 
+  text-decoration: underline;
+}
+nav .navbar-nav .nav-item .names{
+  display: none;
+  position: relative;
+}
+nav .navbar-nav .nav-item:hover .names{
+  display: block;
+  position: absolute;
+  color: lightgray;
+  z-index: 2;
+  }
+nav .navbar-nav .nav-item .Series{
+  color: lightseagreen;
+}
+nav .navbar-nav .nav-item .Series:hover{
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.venue:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.names:hover{
+  display: block;
+}
+.border{
+cursor: pointer;
+}
+.navbar-collapse .bar{
+  font-size:15px;
+}
+.nav-link.bar1:hover{
+background-color: gainsboro;
+
+}
+
+.number1{
+background-color: hsl(0, 13%, 81%);
+}
+.number1:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.squad{
+  cursor: pointer;
+  background-color: rgba(173, 216, 230, 0.21);
+}
+
+
+.Footertwo {
+  cursor: pointer;
+  
+}
+
+.match .facts:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: lightgray;
+}
+.squads:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+
+.news:hover{
+  text-decoration: underline;
+}
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .owl-carousel .item {
+    padding: 10px;
+  }
+
+  .owl-carousel {
+    margin-top: 20px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logoutcricbuzz{
+  background-color: black;
+  position: absolute;
+  right:0px;
+  top: 50px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0px 0px 10px black;
+  z-index: 999;
+  border: 1px solid white;
+}
+.logoutcricbuzz span{
+  background-color: aliceblue;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 10px;
+  padding: 10px;
   color: white;
 }
+.logoutcricbuzz h1{
+  background-color: rgb(0, 34, 255);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: auto;
+}
+.logoutcricbuzz span:hover{
+  background-color: red;
+  
+}
+.logoutcricbuzz .manageaccount{
+  margin: 20px;
+}
+.logoutcricbuzz .manageaccount a{
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.logoutcricbuzz .manageaccount a:hover{
+  background-color:darkslategrey
+}
+.logoutaddaccount{
+  height: 40px;
+}
+.logoutaddaccount .addaccount{
+  background-color:dimgray;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.logoutaddaccount .logout{
+  background-color:rgb(44, 29, 29);
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.bottontop{
+  position: fixed;
+  border-radius: 10%;
+  padding: 10px;
+  bottom: 90px;
+  right: 50%;
+  transform: translate(50%);
+  border:none;
+  background-color:  rgb(25,25,25,0.79);
+}
+.latest.news{
+  text-decoration: underline;
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
